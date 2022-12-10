@@ -4,8 +4,8 @@
 /* more headers goes there */
 
 /**
- * main - Entry point 
- * Description - Prints if random generated number is +ve, zero or -ve 
+ * main - Entry point
+ * Description - Prints if random generated number is +ve, zero or -ve
  * Return: Always 0 (Success)
  */
 int main(void)
