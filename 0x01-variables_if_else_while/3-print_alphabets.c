@@ -4,7 +4,6 @@
  *main - entry point
  *return: always 0 (success)
  */
-
 int main(void)
 {
 	char c;
@@ -14,4 +13,5 @@ int main(void)
 	for (c = 'A'; c <= 'Z'; c++)
 		putchar(c);
 	putchar('\n');
-        return (0);
+	return (0);
+}
