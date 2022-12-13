@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
-*main - prints all single numbers with a space after each, then a new line is printed
+*main - prints all single numbers with a space after each
 *Return: always 0 (success)
 */
 int main(void)
