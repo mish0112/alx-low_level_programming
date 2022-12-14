@@ -1,8 +1,20 @@
-#include<stdio.h>
+#include<main.h>
 
-main()
+/**
+ * main - entry point
+ * return: always 0 (success)
+ */
+
+int main(void)
 {
-	printf("_putchar");
+	char c[9] = "_putchar";
+	int i = 0;
+	while(i < 8)
+	{
+		_putchar(c[i]);
+		i++;
+	}
 
+	_putchar('\n');
 	return (0);
 }
